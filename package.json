@@ -1,0 +1,20 @@
+{
+  "name": "team-profile",
+  "version": "1.0.0",
+  "description": "simple web app to display information about college students team members",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "nodemon api/index.js",
+    "run": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-div/team-profile.git"
+  },
+  "author": "a team in faculty of computers and data science at Alexandria University",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tony-div/team-profile/issues"
+  },
+  "homepage": "https://github.com/tony-div/team-profile#readme"
+}
