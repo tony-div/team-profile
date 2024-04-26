@@ -4,8 +4,8 @@
   "description": "simple web app to display information about college students team members",
   "main": "api/index.js",
   "scripts": {
-    "test": "nodemon api/index.js",
-    "run": "node api/index.js"
+    "test": "nodemon server.js",
+    "run": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/tony-div/team-profile#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.7"
   }
 }
