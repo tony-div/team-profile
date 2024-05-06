@@ -1,7 +1,5 @@
 FROM mysql
 
-ENV MYSQL_DATABASE=Students
-
 COPY ./create-students.sql /docker-entrypoint-initdb.d/
 
 EXPOSE 3306
